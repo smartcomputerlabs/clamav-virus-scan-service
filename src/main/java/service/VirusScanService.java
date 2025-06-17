@@ -12,6 +12,9 @@ import java.util.Map;
 public class VirusScanService {
     private final ClamavClient clamAVClient;
     public VirusScanService(ClamavClient clamAVClient) {
+        //By default, the client will try to connect to the port 3310 which is the default ClamAV daemon port.
+//      If your ClamAV daemon listens to another port, you can indicate it with:
+//        ClamavClient client = new ClamavClient("localhost", 3311);
         this.clamAVClient = clamAVClient;
     }
     public boolean isClean(MultipartFile file) throws Exception {

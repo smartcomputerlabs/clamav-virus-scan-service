@@ -12,8 +12,8 @@ public class FileUploadController {
     public FileUploadController(VirusScanService virusScanService) {
         this.virusScanService = virusScanService;
     }
-    @PostMapping("/upload")
-    public String handleFileUpload(@RequestParam("file") MultipartFile file) {
+    @PostMapping("/scan")
+    public String handleFileScan(@RequestParam("file") MultipartFile file) {
         try {
             if (virusScanService.isClean(file)) {
                 // Process the file if clean
