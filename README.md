@@ -18,3 +18,5 @@ clamd
 to verify if clamav is running use the following command
 telent localhost 3310
 in order to enable telnet in windows search "Turn windows feature on or off" and look for enable telenet and enable it
+
+It took 16.84s for a 20.36MB Pdf file on 32 core AMD system with 32 GB ram

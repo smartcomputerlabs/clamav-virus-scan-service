@@ -40,28 +40,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- ddd -->
-        <!--<dependency>
-            <groupId>org.clamav</groupId>
-            <artifactId>clamav4j</artifactId>
-            <version>0.6</version>
-        </dependency>-->
-
-        <!-- https://mvnrepository.com/artifact/io.sensesecure/clamav4j -->
-     <!--   <dependency>
-            <groupId>xyz.capybara</groupId>
-            <artifactId>clamav-client</artifactId>
-            <version>2.1.2</version>
-        </dependency>-->
         <dependency>
             <groupId>io.sensesecure</groupId>
             <artifactId>clamav4j</artifactId>
             <version>0.6</version>
         </dependency>
-
     </dependencies>
-
-
     <build>
         <plugins>
             <plugin>
