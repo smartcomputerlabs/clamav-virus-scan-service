@@ -1,4 +1,4 @@
-# clamav-virus-scan-service
+# clamav-anti-virus-scan-service
 This service can be used to scan files before uploading them to the server
 # Download Clamav from https://www.clamav.net/downloads
 Navigate to home directory of clamav for me it and copy clamd.conf.sample and freshclam.conf.sample from conf_examples to ClamAV
