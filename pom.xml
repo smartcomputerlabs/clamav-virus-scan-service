@@ -48,11 +48,11 @@
         </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/io.sensesecure/clamav4j -->
-        <dependency>
+     <!--   <dependency>
             <groupId>xyz.capybara</groupId>
             <artifactId>clamav-client</artifactId>
             <version>2.1.2</version>
-        </dependency>
+        </dependency>-->
         <dependency>
             <groupId>io.sensesecure</groupId>
             <artifactId>clamav4j</artifactId>
